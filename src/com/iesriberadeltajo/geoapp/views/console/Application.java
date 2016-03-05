@@ -24,7 +24,7 @@ public class Application {
         
         System.out.println("Cuadrado-----");
         System.out.printf("Lado: %.2f %n",cua1.getSide());
-        System.out.printf("Su area es : %.2f %n",cua1.getArea());
+        System.out.printf("Su área es: %.2f %n",cua1.getArea());
         System.out.printf("y su perímetro: %.2f %n",cua1.getPerimeter());
         
         System.out.println("Esfera-----");
