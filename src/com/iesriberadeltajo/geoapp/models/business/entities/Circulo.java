@@ -10,11 +10,9 @@ package com.iesriberadeltajo.geoapp.models.business.entities;
  * @author Profesor
  */
 public class Circulo {
-//<editor-fold defaultstate="collapsed" desc="Atributos/Campos (Estado)">
+
     private double radius;
-//</editor-fold>
-//<editor-fold defaultstate="collapsed" desc="Métodos (Comportamientos)">
-    //<editor-fold defaultstate="collapsed" desc="setters/getters">
+
     public double getRadius() {
         return radius;
     }

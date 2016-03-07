@@ -11,12 +11,18 @@ package com.iesriberadeltajo.geoapp.models.business.entities;
  */
 public class Rombo {
     private double dMayor, dMenor;
-
-    public Rombo(){                 /**Constructor sin parámetros o constructor general */
+    /**
+     * método constructor sin parámetros o constructor general
+     */
+    public Rombo(){                 
         this.setdMayor(1.0);
         this.setdMenor(1.0);
-    }   
-    public Rombo(double dMayor, double dMenor){     /**Método constructor con parámetros; Éste método necesita que definamos dos métodos nuevos más para pasar los parámetros*/ 
+    }
+    /**
+    * @param dMayor
+    * @param dMenor
+    */
+    public Rombo(double dMayor, double dMenor){      
         this.setdMayor(dMayor);                   
         this.setdMenor(dMenor);
     }
@@ -44,10 +50,15 @@ public class Rombo {
     private double getdMenor() {
         return dMenor;
     }
-
+   /**
+    * @return area ; Método get que devuelve el área del rombo
+    */
    public double getArea(){ 
         return this.getdMayor() * this.getdMenor()/2.0;
     }
+   /**
+    * @return perimetro ; Método get que devuelve el perímetro del rombo
+    */
     public double getPerimetro(){
         double lado = Math.sqrt(Math.pow(getdMayor(),2)/2.0+Math.pow(getdMenor(),2)/2.0);  
         return lado * 4;

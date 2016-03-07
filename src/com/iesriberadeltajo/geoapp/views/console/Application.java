@@ -11,9 +11,12 @@ import com.iesriberadeltajo.geoapp.models.business.entities.Esfera;
 import com.iesriberadeltajo.geoapp.models.business.entities.Cuadrado;
 /**
  *
- * @author Profesor
+ * @author Profesorddcdc
  */
 public class Application {
+    /**
+    * @param args ; método main
+    */
     public static void main(String[] args) {
         //Capa de presentación de nuestra app
         Cuadrado cua1 = new Cuadrado(4);
